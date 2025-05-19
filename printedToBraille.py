@@ -28,6 +28,7 @@ braille_chars = [
     ('z', [[1,0],[0,1],[1,1]]),
 
     # Numbers (represented as letters a-j with number prefix in braille, here just mapping)
+    ('#', [[0,1],[0,1],[1,1]]),  # --> ⠼ (prefix for numnbers)
     ('1', [[1,0],[0,0],[0,0]]),
     ('2', [[1,0],[1,0],[0,0]]),
     ('3', [[1,1],[0,0],[0,0]]),
